@@ -9,7 +9,7 @@ $currentScriptDirectory = Split-Path -Path $MyInvocation.MyCommand.Path -Parent
 
 try {
     # Recupere le lien du TeamViewerQS à copier et le dossier de destination
-    $fileToCopy = "$currentScriptDirectory\TeamViewerQS.exe"
+    $fileToCopy = "$currentScriptDirectory\assets\TeamViewerQS.exe"
     $destinationDirectory = "C:\Program Files\TeamViewerQS"
 
     # Vérifie si le fichier source existe
